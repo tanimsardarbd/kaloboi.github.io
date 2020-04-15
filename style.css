@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nosifer&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap&subset=latin-ext');
+body{
+	background-image: url(thhh.jpg);
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background:black;
+	color: white;
+	padding: 62px 50px 6px 45px;
+	height: 100px;
+}
+header h1{
+	display: inline;
+	
+	font-weight: 400px;
+	font-size: 19px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 20px;
+	
+	
+	
+}
+nav ul{
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+
+}
+/* footer */
+.footer {
+     
+	background: #303036;
+	color: #d3d3d3;
+	opacity: .80;
+	height: 400px;
+	margin: 10% 0% 0% 0%;
+}
+
+.footer .footer-content {
+	border: 1px solid yellow;
+	height: 400px;
+	display: flex;
+}
+.footer .footer-content .footer-section {
+	flex: 1;
+	padding: 25px;
+	border: 1px solid white;
+}
+.footer .footer-content h1, .footer .footer-content h2{
+	color: white;
+}
+.footer .footer-content .about h1 span {
+	color: red;
+}
+.footer-main-div {
+	background-color:green;
+	opacity: .60;
+}
+
+.footer-social-icons {
+	font-weight: lighter;
+	color: red;
+	font-size: 30px;
+	padding-top: 10px;
+	margin-bottom: 2px;
+
+}
+
+.footer-social-icons:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0s;
+}
+ 
+
+li a i {
+	background-color: #2196f3;
+
+}
+
+li a i:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0s;
+}
+ 
+
+.footer .footer-buttom {
+	background: #343a40;
+	color: white;
+	width: 100%;
+	text-align: center;
+	background-color:black;
+	bottom: 0px;
+	left: 0px;
+	opacity: .60;
+	
+	
+}
+li{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+	
+li:hover {
+	color: yellow;
+	margin-left: 15px;
+	transition: all .3s;
+	cursor: pointer;
+}
+p {
+	background:red;
+	opacity: .50;
+
+}
+
+
+#nav{
+	font-family: 'Montserrat', sans-serif;
+}
+.homered{
+	background-color: red;
+	padding: 30px 10px 16px 10px;
+}
+.divider {
+	background-color: red;
+	height: 5px;
+}
+.homeblack:hover {
+	background-color: red;
+	padding: 30px 10px 16px 10px;
+}
+.homesub{
+      font-family: 'Nosifer', cursive;
+      color: red;
+      margin: 0;
+      padding: 9% 5% 0% 55%;
+}
+.homedes {
+	font-family: 'Great Vibes', cursive;
+      color: yellow;
+      margin: 0;
+      padding: 0.5% 0% 0% 55%;
+}
+.homepho {
+	font-family: 'Nosifer', cursive;
+     margin:  0.5% 0% 0% 55%;
+     font-size: 40px;
+     color: green;
+     background-color: 
+     display: inline-block;
+     opacity: .40;
+}
+.buttonhome {
+	font-family: 'Nosifer', cursive;
+    margin:  0.5% 0% 0% 55%;
+     font-size: 15px;
+     color: red;
+     background-color: rgba(0,0,0,0.4);
+     display: inline-block;
+     cursor: pointer;
+}
+.buttonhome:hover{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0s;
+}
+ 
